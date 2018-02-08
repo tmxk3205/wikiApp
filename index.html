@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+		<link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <div class="container-fluid">
+    	<div class="row">
+    		<div class="col-sm-12 jumbotron text-center">
+    			<h1>WikiLive by Ryan</h1>
+					<p><i>Live search results from wikipedia</i></p>
+					<hr class="shortHr">
+					<div class="searchBox">
+						<input type="text" class="form-control" id="search" placeholder="Type something interesting!">
+						<button class="btn btn-primary random" >Article of the day</button>
+					</div>
+    		</div>
+				<div class="col-sm-8 col-sm-offset-2 searchResults">
+					<div id="update">
+					</div>
+				</div>
+    	</div>
+    </div>
+		<div class="container-fluid embed-responsive embed-responsive-16by9">
+			<div class="row">
+					<iframe class="embed-responsive-item" src="" width="1080" height="760" frameborder="0"></iframe>
+			</div>
+		</div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
+		<script src="index.js" charset="utf-8"></script>
+  </body>
+</html>
